@@ -31,12 +31,3 @@ vdm_delta = function(proba, ins_1, ins_2, norm=2) {
   return(delta)
 }
 
-############# example ############# 
-# data = read.csv('../data.csv')
-
-# proba = vdm_proba(data, 'y')
-# vdm_delta(proba, c('0', '1'), c('1', '24'))
-
-
-
-
